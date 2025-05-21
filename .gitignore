@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Build results
+x64/
+x86/
+build/
+bld/
