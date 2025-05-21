@@ -8,7 +8,7 @@ class MapFile {
 public:
 	std::unique_ptr<std::fstream> File;
 
-	int16_t Format;
+	int16_t Format = NULL;
 
-	MapFile(std::unique_ptr<std::fstream> file, int16_t format);
+	MapFile(std::unique_ptr<std::fstream> file);
 };

@@ -1,0 +1,23 @@
+# ninja log v6
+6	342	7695623589145959	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+15	353	7695621981255894	CMakeFiles/editor.dir/src/MapFile.cpp.obj	1ec677e119e26303
+354	519	7695621984638541	editor.exe	1d66f82b8f395965
+6	345	7695631548219858	CMakeFiles/editor.dir/src/MapFile.cpp.obj	1ec677e119e26303
+9	351	7695631548249791	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+6	341	7695633066238607	CMakeFiles/editor.dir/src/MapFile.cpp.obj	1ec677e119e26303
+9	350	7695633066258566	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+18	353	7695633624720172	CMakeFiles/editor.dir/src/MapFile.cpp.obj	1ec677e119e26303
+21	361	7695633624740285	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+15	385	7695633624688516	CMakeFiles/editor.dir/src/Importer.cpp.obj	9e693b7a95b5de6f
+385	718	7695633628387206	editor.exe	e7b2f9dc0dcfed27
+13	366	7695633706902860	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+367	832	7695633710440748	editor.exe	e7b2f9dc0dcfed27
+14	377	7695634121079314	CMakeFiles/editor.dir/src/Importer.cpp.obj	9e693b7a95b5de6f
+377	530	7695634124721101	editor.exe	e7b2f9dc0dcfed27
+17	370	7695634706961187	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+370	551	7695634710501054	editor.exe	e7b2f9dc0dcfed27
+18	377	7695635149599929	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+15	387	7695635149570009	CMakeFiles/editor.dir/src/Importer.cpp.obj	9e693b7a95b5de6f
+387	754	7695635153294511	editor.exe	e7b2f9dc0dcfed27
+16	376	7695635422417581	CMakeFiles/editor.dir/src/main.cpp.obj	6eac5d4bfcef058e
+377	581	7695635426020955	editor.exe	e7b2f9dc0dcfed27

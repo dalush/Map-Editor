@@ -1,0 +1,3 @@
+C:/C++/Map-Editor/build/x64-debug/CMakeFiles/editor.dir
+C:/C++/Map-Editor/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/C++/Map-Editor/build/x64-debug/CMakeFiles/rebuild_cache.dir
