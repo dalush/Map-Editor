@@ -1,14 +1,15 @@
 #if WIN32
 
 #include <iostream>
-#include "Importer.h"
+#include "MapManager.h"
 
 int main(int argc, char* argv) {
-	std::cout << "hello world!" << std::endl;
 
 	try {
-		auto map = ImportMap("C:/SS14 repos/TGMC14/Resources/Maps/amber.yml");
-		std::cout << map.Format << std::endl;
+		auto map = ImportMap("C:/C++/test map.yml");
+		std::cout << "sucess import" << std::endl;
+
+		MapManager::ReplacePrototype(std::move(map), "ActionToggleLight", "null");
 	}
 	catch (const std::exception& ex) {
 		std::cerr << ex.what() << std::endl;

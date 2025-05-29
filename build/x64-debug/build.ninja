@@ -63,6 +63,13 @@ build CMakeFiles\editor.dir\src\MapFile.cpp.obj: CXX_COMPILER__editor_unscanned_
   TARGET_COMPILE_PDB = CMakeFiles\editor.dir\
   TARGET_PDB = editor.pdb
 
+build CMakeFiles\editor.dir\src\MapManager.cpp.obj: CXX_COMPILER__editor_unscanned_Debug C$:\C++\Map-Editor\src\MapManager.cpp || cmake_object_order_depends_target_editor
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = CMakeFiles\editor.dir
+  OBJECT_FILE_DIR = CMakeFiles\editor.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\editor.dir\
+  TARGET_PDB = editor.pdb
+
 build CMakeFiles\editor.dir\src\main.cpp.obj: CXX_COMPILER__editor_unscanned_Debug C$:\C++\Map-Editor\src\main.cpp || cmake_object_order_depends_target_editor
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   OBJECT_DIR = CMakeFiles\editor.dir
@@ -78,7 +85,7 @@ build CMakeFiles\editor.dir\src\main.cpp.obj: CXX_COMPILER__editor_unscanned_Deb
 #############################################
 # Link the executable editor.exe
 
-build editor.exe: CXX_EXECUTABLE_LINKER__editor_Debug CMakeFiles\editor.dir\src\Importer.cpp.obj CMakeFiles\editor.dir\src\MapFile.cpp.obj CMakeFiles\editor.dir\src\main.cpp.obj
+build editor.exe: CXX_EXECUTABLE_LINKER__editor_Debug CMakeFiles\editor.dir\src\Importer.cpp.obj CMakeFiles\editor.dir\src\MapFile.cpp.obj CMakeFiles\editor.dir\src\MapManager.cpp.obj CMakeFiles\editor.dir\src\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
